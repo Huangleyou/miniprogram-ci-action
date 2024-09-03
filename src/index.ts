@@ -36,6 +36,9 @@ export async function activate(): Promise<void> {
     }
 
     await actions[actionType](context);
+    console.log('process.exit')
+    process.exit()
+    console.log('process.exit?')
   } catch (error) {
     core.setFailed(error);
   }
