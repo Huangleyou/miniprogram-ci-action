@@ -7,7 +7,7 @@ interface TaskStatus {
 }
 
 export function getCIBot(): number {
-  return core.getInput('ci') ? Number(core.getInput('ci')) : 24;
+  return core.getInput('ci') ? Number(core.getInput('ci')) : 1;
 }
 
 export function getThreads(): number {

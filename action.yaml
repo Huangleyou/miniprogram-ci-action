@@ -34,7 +34,7 @@ inputs:
   ci:
     description: "Number of CI"
     required: false
-    default: '24'
+    default: '8'
 outputs:
   preview_qrcode:
     description: "The base64 content of the MiniProgram to preview the QR code"
