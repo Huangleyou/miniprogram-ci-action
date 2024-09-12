@@ -19,6 +19,9 @@ async function preview(context: ActionContext): Promise<void> {
     version: context.version,
     desc: context.description,
     setting: {
+      es6: true,
+      es7: true,
+      enhance: true,
       useProjectConfig: true,
     },
     robot: context.robot,
